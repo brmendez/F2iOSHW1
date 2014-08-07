@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
        }
     }
-    
+    //did this work??
 // Not sure why this didn't work.
 // @IBAction func gliderButton(sender: UISlider) {
 //    var sliderValue = (self.gliderButton.value)
