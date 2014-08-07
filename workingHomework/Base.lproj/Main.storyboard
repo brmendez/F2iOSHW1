@@ -25,15 +25,18 @@
                                     <action selector="messageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jpD-Y2-Vvy"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PzG-z9-lMz">
-                                <rect key="frame" x="126" y="324" width="118" height="31"/>
-                            </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dt3-mS-vvM">
                                 <rect key="frame" x="161" y="192" width="51" height="31"/>
                                 <connections>
                                     <action selector="sliderButton:" destination="BYZ-38-t0r" eventType="valueChanged" id="EhD-08-vQp"/>
                                 </connections>
                             </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PzG-z9-lMz">
+                                <rect key="frame" x="126" y="324" width="118" height="31"/>
+                                <connections>
+                                    <action selector="glideButton2:" destination="BYZ-38-t0r" eventType="valueChanged" id="9pa-lx-Of0"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -42,4 +45,5 @@
             </objects>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.17663877107784298" green="0.73714909238134418" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
