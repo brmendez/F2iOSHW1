@@ -153,24 +153,6 @@
             </objects>
             <point key="canvasLocation" x="819" y="75"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="kWV-Dh-mCg">
-            <objects>
-                <viewController id="Mvn-Oo-JxD" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qNB-uC-qO3"/>
-                        <viewControllerLayoutGuide type="bottom" id="qHr-ew-mO8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Hhg-uM-bS2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bZx-Is-Fv6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-298.5" y="743"/>
-        </scene>
     </scenes>
     <resources>
         <image name="tycho-graphic-design-madison-wisconsin-300x300" width="300" height="300"/>
