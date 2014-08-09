@@ -36,23 +36,22 @@ class ViewController: UIViewController {
     
     }
     @IBAction func glideButton2(sender: UISlider) {
-        
         if sender.value > 0.5 { println ("On") }
         else {println ("Off") }
         
        }
     }
-    //did this work??
-// Not sure why this didn't work.
-// @IBAction func gliderButton(sender: UISlider) {
-//    var sliderValue = (self.gliderButton.value)
-//     var roundValue: Float = (round(sliderValue * 10.0) / 10.0)
-//      self.gliderButton.value = roundValue
+    
+    // Not sure why this didn't work.
+   // @IBAction func gliderButton(sender: UISlider) {
+    //    var sliderValue = (self.gliderButton.value)
+   //     var roundValue: Float = (round(sliderValue * 10.0) / 10.0)
+  //      self.gliderButton.value = roundValue
         
-//      if (roundValue > 0.5) {
-//          println("The slider is to the right!")
-//       }
-//      else{
-//          println("The slider is to the left!")
-//      }
+  //      if (roundValue > 0.5) {
+  //          println("The slider is to the right!")
+ //       }
+  //      else{
+  //          println("The slider is to the left!")
+  //      }
     
